@@ -133,5 +133,27 @@ body {
   font-size: smaller;
 }
 
+h1 {
+  font-size: 5em;
+  margin: 0.2em 0;
+}
+
+h2 {
+  font-size: 2.8em;
+  margin: 0.2em 0;
+  font-weight: normal;
+  line-height: 1.4; /* Adjust this value to make the spacing larger */
+}
+
+p {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+pitalic {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  font-style: italic;
+}
 
 
