@@ -114,7 +114,6 @@ If you find our work useful for your research, kindly consider citing our paper:
     author={Wang, Benquan and An, Ruyi, and So, Jin-Kyu and Kurdiumov, Sergei and Chan, Eng Aik and Adamo, Giorgio and Peng, Yuhan and Li, Yewen and An, Bo},
     booktitle={CVPR},
     year={2025}
-    }
 }
 ```
 
