@@ -54,7 +54,7 @@ The dataset is hosted on Hugging Face Datasets. You can download the dataset by 
 ```python
 from datasets import load_dataset
 
-dataset = load_dataset("opticalnet")
+dataset = load_dataset("Deep-See/OpticalNet")
 ```
 
 ## 🛠️ Installation for training
