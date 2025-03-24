@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>OpticalNet 🔬: An Optical Imaging Dataset and Benchmark Beyond the Diffraction Limit 🔍</h1>
+<h1>OpticalNet🔬: An Optical Imaging Dataset and Benchmark Beyond the Diffraction Limit🔍</h1>
 
 [![Conference](https://img.shields.io/badge/CVPR-2025-blue)](https://cvpr.thecvf.com/)
 [![Poster](https://img.shields.io/badge/Poster-34146-blue)](https://cvpr.thecvf.com/virtual/2025/poster/34146)
@@ -92,6 +92,10 @@ python3 scripts/run.py --data_dir <> --model <MODEL_NAME>
 ## 💡 Simluation
 In order to perform simulation, an separate environment is required. The simulation environment can be installed by running the following commands:
 ```bash
+# clone this repository
+git clone https://github.com/Deep-See/OpticalNet.git
+cd OpticalNet
+
 # create a new anaconda environment
 conda create -n optical-sim python=3.9 -y
 conda activate optical-sim
@@ -105,7 +109,7 @@ pip install --editable .
 ## 🔝 Citation
 If you find our work useful for your research, kindly consider citing our paper:
 ```bibtex
-@inproceedings{hier_rep_rl,
+@inproceedings{opticalnet,
     title={{OpticalNet}: An Optical Imaging Dataset and Benchmark Beyond the Diffraction Limit},
     author={Wang, Benquan and An, Ruyi, and So, Jin-Kyu and Kurdiumov, Sergei and Chan, Eng Aik and Adamo, Giorgio and Peng, Yuhan and Li, Yewen and An, Bo},
     booktitle={CVPR},
