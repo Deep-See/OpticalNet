@@ -108,10 +108,10 @@
                 <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
               </div>
 
-                  <div class="column has-text-centered">
+                <div class="column has-text-centered">
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
-                      <span class="link-block">
+                  <span class="link-block">
                         <a href="assets/paper.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
@@ -119,10 +119,10 @@
                         </span>
                         <span>Paper</span>
                       </a>
-                    </span>
+                  </span>
 
                     <!-- Supplementary PDF link -->
-                    <span class="link-block">
+                  <span class="link-block">
                       <a href="assets/paper.pdf" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
@@ -141,18 +141,29 @@
                     </span>
                     <span>Code</span>
                   </a>
-                </span>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/Deep-See/OpticalNet" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Simulator</span>
+                  </a>
+                  </span>
 
                             <!-- Huggingface Demo Link. -->
-            <span class="link-block">
-              <a href="https://huggingface.co/datasets/Deep-See/OpticalNet" target="_blank"
-                class="external-link button is-normal is-rounded is-dark">
-                <span class="icon">
-                  <img src="assets/hf-logo.svg" style="display:block;width:330px;height:240px" />
-                </span>
-                <span>Dataset</span>
-              </a>
-            </span>
+                  <span class="link-block">
+                    <a href="https://huggingface.co/datasets/Deep-See/OpticalNet" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <img src="assets/hf-logo.svg" style="display:block;width:330px;height:240px" />
+                      </span>
+                      <span>Dataset</span>
+                    </a>
+                  </span>
 
               </span>
             </div>
@@ -202,134 +213,43 @@
 </section>
 <!-- End paper abstract -->
 
-<section class="image-comparison-container">
-  <div class="image-comparison-content">
-    <div class="slider" style="left: 50%;"></div>
-      <img src="assets/images/transformer_online_colorized.png" alt="Image 1" class="image-1"/>
-      <img src="assets/images/ORC_colorized.png" alt="Image 2" class="image-2" style="clip-path: inset(0 0 0 50%);"/>
-  </div>
-  <div class="captions has-text-centered">
-    <span class="caption-text">Slide left or right</span>
-  </div>
-  <script src="static/js/image-comparison.js"></script>
-</section>
 
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+<div class="columns is-centered has-text-centered">
+  <div class="column is-four-fifths">
+    <h2 class="title is-3">Demonstration</h2>
+
+      <!-- Moved here -->
+    <section class="image-comparison-container">
+      <div class="image-comparison-content">
+        <div class="slider" style="left: 50%;"></div>
+        <img src="assets/images/transformer_online_colorized.png" alt="Image 1" class="image-1"/>
+        <img src="assets/images/ORC_colorized.png" alt="Image 2" class="image-2" style="clip-path: inset(0 0 0 50%);"/>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+      <script src="static/js/image-comparison.js"></script>
+    </section>
+
+    <div class="captions has-text-centered">
+      <span class="caption-text">Slide left or right</span>
     </div>
+    <!-- End image comparison section -->
+
+    <div class="caption has-text-justified is-size-6" style="text-align: left;">
+      <p>
+        (to be filled up)
+      </p>
+    </div>
+     
+    
   </div>
 </div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
 
 
 
 
 
 
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
 
 
 <!--BibTex citation -->

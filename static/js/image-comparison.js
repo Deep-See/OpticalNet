@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const slider = document.querySelector('.slider');
     const image2 = document.querySelector('.image-2');
     const caption = document.querySelector('.caption-text');
+    const thickness = 6;
   
     if (!container || !slider || !image2 || !caption) {
       console.error('Required elements for image comparison are missing.');
@@ -15,7 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
       xPos = Math.max(0, Math.min(xPos, rect.width));
       const percentage = (xPos / rect.width) * 100;
   
-      slider.style.left = `${percentage}%`;
+      slider.style.left = `calc(${percentage}% - ${thickness / 2}px)`;
+
       image2.style.clipPath = `inset(0 0 0 ${percentage}%)`;
 
       // Update caption based on slider position
