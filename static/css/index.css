@@ -145,14 +145,16 @@ h2 {
   line-height: 1.4; /* Adjust this value to make the spacing larger */
 }
 
-p {
+pbold {
   font-size: 1.4em;
-  margin-bottom: 1em;
+  margin-top: 0em;
+  margin-bottom: 0.3em;
+  font-weight: bold;
 }
 
 pitalic {
   font-size: 1.2em;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   font-style: italic;
 }
 
