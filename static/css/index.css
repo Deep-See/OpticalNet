@@ -216,6 +216,12 @@ pitalic {
   white-space: pre-wrap; /* Ensures that data is preformatted and wraps when needed */
   word-break: break-word; /* Prevents the text from overflowing the container */
   color: #333; /* Default text color */
+  line-height: 1.2; /* Adjust line height for compactness */
+  margin: 0; /* Remove extra margins */
+}
+.bibtex-pre code {
+  display: block; /* Ensure proper block formatting */
+  margin: 0; /* Remove extra margins */
 }
 .bibtex-keyword { color: #a71d5d; } /* Pink for keywords like @inproceedings, title, author */
 .bibtex-value { color: #183691; } /* Blue for values */
