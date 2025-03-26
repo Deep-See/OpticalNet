@@ -156,4 +156,52 @@ pitalic {
   font-style: italic;
 }
 
+/* Image comparison container */
+.image-comparison-container {
+  background-color: #fff; /* Solid background color that spans the entire width */
+}
+.image-comparison-content {
+  position: relative;
+  width: 580px;  /* Adjust the width as needed */
+  height: 402px; /* Adjust the height as needed */
+  overflow: hidden; /* Make sure overflow isn't hiding any part of the images */
+  margin: 0 auto;
+  margin-top: -20px;
+  cursor: ew-resize;
+  border-radius: 10px;
+}
+.image-comparison-content img {
+  position: absolute;
+  width: 100%;
+  height: 99%;
+  background-color: #fff;
+  object-fit: contain; /* Use contain to ensure the whole image is visible */
+}
+.image-comparison-content .slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: #fff;
+  z-index: 10;
+}
+.image-comparison-content .slider-black {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background-color: black;
+  z-index: 10;
+}
 
+.captions {
+  text-align: center;
+  margin-top: 10px; /* Adjust spacing as needed */
+}
+
+.caption-text {
+  font-size: 1rem; /* Adjust font size if necessary */
+  color: #333; /* Optional: Adjust text color */
+}
