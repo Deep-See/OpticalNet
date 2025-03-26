@@ -3,8 +3,8 @@
 <h1>OpticalNet🔬: An Optical Imaging Dataset and Benchmark Beyond the Diffraction Limit🔍</h1>
 
 [![Conference](https://img.shields.io/badge/CVPR-2025-blue)](https://cvpr.thecvf.com/)
-[![Poster](https://img.shields.io/badge/Poster-34146-blue)](https://cvpr.thecvf.com/virtual/2025/poster/34146)
-[![Project](https://img.shields.io/badge/Project-Page-blue)](https://Deep-See.github.io/OpticalNet)
+[![Poster](https://img.shields.io/badge/Poster-34146-green)](https://cvpr.thecvf.com/virtual/2025/poster/34146)
+[![Project](https://img.shields.io/badge/Project-Page-red)](https://Deep-See.github.io/OpticalNet)
 
 <!-- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/opticalnet-an-optical-imaging-dataset-and/semantic-segmentation-on-opticalnet)](https://paperswithcode.com/sota/semantic-segmentation-on-opticalnet?p=opticalnet-an-optical-imaging-dataset-and)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/opticalnet-an-optical-imaging-dataset-and/semantic-segmentation-on-opticalnet-1)](https://paperswithcode.com/sota/semantic-segmentation-on-opticalnet-1?p=opticalnet-an-optical-imaging-dataset-and)
@@ -34,8 +34,6 @@
         • <a href="https://cvpr.thecvf.com/virtual/2025/poster/34146" target='_blank'>[pdf]</a> •
     </h4>
 </div>
-
-<img src="assets/poster.png" width="800px"/>
 
 <div>
     If you find our project helpful, kindly consider ⭐ this repo. Thanks! 🖐️
