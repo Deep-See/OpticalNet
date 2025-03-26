@@ -205,3 +205,16 @@ pitalic {
   font-size: 1rem; /* Adjust font size if necessary */
   color: #333; /* Optional: Adjust text color */
 }
+
+.bibtex-pre {
+  background-color: #f8f8f8; /* Light grey background */
+  border-left: 5px solid #009688; /* Teal border on the left */
+  padding: 10px; /* Some padding around the text */
+  font-family: 'Courier New', Courier, monospace; /* Monospaced font styles similar to code editors */
+  white-space: pre-wrap; /* Ensures that data is preformatted and wraps when needed */
+  word-break: break-word; /* Prevents the text from overflowing the container */
+  color: #333; /* Default text color */
+}
+.bibtex-keyword { color: #a71d5d; } /* Pink for keywords like @inproceedings, title, author */
+.bibtex-value { color: #183691; } /* Blue for values */
+.bibtex-type { color: #795da3; } /* Purple for entry types like article, book */
