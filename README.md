@@ -42,8 +42,8 @@
 </div>
 
 ## 📮 News
-- Mar. 2024: We are working on presenting our final simulation and training code and datasets, and will release them in a very due time. Stay tuned!
-- Feb. 2024: Our paper has been accepted to CVPR 2025 🎉
+- Mar. 2025: We are working on presenting our final simulation and training code and datasets, and will release them in a very due time. Stay tuned!
+- Feb. 2025: Our paper has been accepted to CVPR 2025 🎉
 
 ## 💽 Dataset
 
