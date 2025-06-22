@@ -79,12 +79,12 @@ The below commands will train a model on simulation and experimental datasets. T
 
 #### Simulation Dataset
 ```bash
-python3 scripts/simulation_run.py
+python3 main.py --dir_path <PATH_TO_SIMULATION_DATASET> --model_type <MODEL_NAME>
 ```
 
 #### Experimental Dataset
 ```bash
-python3 scripts/run.py --data_dir <> --model <MODEL_NAME>
+python3 main.py --dir_path <PATH_TO_EXPERIMENTAL_DATASET> --model_type <MODEL_NAME>
 ```
 
 ## 💡 Simluation
